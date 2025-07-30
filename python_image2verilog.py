@@ -1,13 +1,4 @@
-# *****************************************************************************
-# Created by embeddedthoughts.com
-# Edited by David J. Marion aka FPGA Dude
-# Editor's notes:
-#   - scipy misc.imread() is now a deprecated function
-#   - scipy library is no longer needed in this program 
-#       and is replaced with imageio library on line# 17
-#   - line# 105 shows the replacement code using imageio.imread() 
-#       for line# 103 with scipy.misc.imread()
-# *****************************************************************************
+
 
 # converts image to Verilog HDL that infers a ROM using Xilinx Block RAM
 # note: 12-bit color map word is r3, r2, r1, r0, g3, g2, g1, g0, b3, b2, b1, b0
